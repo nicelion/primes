@@ -48,9 +48,13 @@ public class Primes
     public static void main(String[] args)
     {
         // test isPrime1
+        long x = 23234423563L;
         System.out.println( isPrime1(2) );
         System.out.println( isPrime1(9) );
-        System.out.println( isPrime1(17) );
+        System.out.println( isPrime1(15485863) );
+        
+        System.out.println();
+        
         
         // test isPrime2
         System.out.println( isPrime2(2) );
@@ -63,7 +67,10 @@ public class Primes
         // 0. Study the method isPrime1. Describe the set of numbers that would be 
         //    tested as divisors when checking the value 19 for primality. Do the 
         //    same for 91 and 643.
-
+        
+        /**
+         * All numbers between 2 and n are checked if the product of n%i == 0
+         */
         
         // 1. Study the method isPrime2. Describe the set of numbers that would be 
         //    tested as divisors when checking the value 19 for primality. Do the 
@@ -84,11 +91,17 @@ public class Primes
         //    ints less than 2 return false.
 
         
-        
+        System.out.println();
         // Write blocks of code that use isPrime2 to solve the following problems:
         
         // 5. Generate a list of the first 50 prime numbers.
         
+        
+        for (int i = 0; i < 50; i++) {
+            
+        }
+        
+       
         // 6. What is the 100th prime? the 1000th? The 12847th?
     
         // 7. In the set of integers from 2-1000000, how many are prime?

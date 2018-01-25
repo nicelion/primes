@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Primes
+comment0.text=\r\n\ Two\ examples\ of\ methods\ for\ determining\ whether\ an\ int\ is\ prime.\ \r\n\ You\ will\ be\ asked\ questions\ about\ this\ code\ on\ the\ loops\ test.\r\n\ \r\n\ @author\ Jon\ Cooper\r\n\ @version\ November\ 18,\ 2013\r\n
+comment1.params=n
+comment1.target=boolean\ isPrime1(int)
+comment1.text=\r\n\ Determine\ if\ an\ int\ is\ prime.\r\n\ \r\n\ @param\ n\ \ \ \ \ number\ to\ test\r\n\ @return\ \ \ \ \ \ true\ if\ number\ is\ prime,\ false\ otherwise\r\n
+comment2.params=n
+comment2.target=boolean\ isPrime2(int)
+comment2.text=\r\n\ A\ more\ efficient\ way\ to\ determine\ if\ an\ int\ is\ prime.\r\n\ \r\n\ @param\ n\ \ \ \ \ number\ to\ test\r\n\ @return\ \ \ \ \ \ true\ if\ number\ is\ prime,\ false\ otherwise\r\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
